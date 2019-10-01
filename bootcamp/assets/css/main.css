@@ -318,11 +318,12 @@ input, select, textarea {
 	strong, b {
 		color: #ffffff;
 	}
-
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 	}
-
+	.w-60{
+		width: 60%;
+	}
 	blockquote {
 		border-left-color: rgba(255, 255, 255, 0.35);
 	}
@@ -3006,13 +3007,10 @@ input, select, textarea {
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
-			border-radius: 100%;
-			border: solid 1px;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
 				width: 16em;
 			}
 
