@@ -2723,8 +2723,8 @@ input, select, textarea {
 		width: 100%;
 	}
 
-		table tbody tr {
-			border: solid 1px;
+		/* table tbody tr {
+			border: 1px solid #dddddd;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -2741,11 +2741,11 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px;
+			border: 1px solid #dddddd;
 		}
 
 		table tfoot {
-			border-top: solid 2px;
+			border: 1px solid #dddddd;
 		}
 
 		table.alt {
@@ -2753,7 +2753,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px;
+				border: 1px solid #dddddd;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -2775,27 +2775,47 @@ input, select, textarea {
 			}
 
 	table tbody tr {
-		border-color: rgba(255, 255, 255, 0.35);
-	}
+		border: 1px solid #dddddd;
+	} */
 
-		table tbody tr:nth-child(2n + 1) {
+		/* table tbody tr:nth-child(2n + 1) {
 			background-color: rgba(255, 255, 255, 0.075);
-		}
+		} */
 
-	table th {
+	/* table th {
 		color: #ffffff;
-	}
+	} */
 
-	table thead {
+	/* table thead {
 		border-bottom-color: rgba(255, 255, 255, 0.35);
-	}
-
+	} */
+/* 
 	table tfoot {
-		border-top-color: rgba(255, 255, 255, 0.35);
+		border: 1px solid #dddddd;
 	}
 
 	table.alt tbody tr td {
-		border-color: rgba(255, 255, 255, 0.35);
+		border: 1px solid #dddddd;
+	} */
+
+	.counter {
+		background-color:#f5f5f5;
+		padding: 20px 0;
+		border-radius: 5px;
+	}
+	.counter-count {
+		font-size: 40px;
+		font-weight: normal;
+		margin-top: 10px;
+		margin-bottom: 0;
+		text-align: center;
+	}
+	.count-text {
+		font-size: 13px;
+		font-weight: normal;
+		margin-top: 10px;
+		margin-bottom: 0;
+		text-align: center;
 	}
 
 /* Features */
@@ -3555,37 +3575,37 @@ input, select, textarea {
 			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 		}
 
-		#main table tbody tr {
+		/* #main table tbody tr {
 			border-color: #dddddd;
-		}
+		} */
 
-			#main table tbody tr:nth-child(2n + 1) {
+			/* #main table tbody tr:nth-child(2n + 1) {
 				background-color: rgba(222, 222, 222, 0.25);
-			}
+			} */
 
-		#main table th {
+		/* #main table th {
 			color: #636363;
 		}
 
 		#main table thead {
-			border-bottom-color: #dddddd;
+			border: 1px solid #dddddd;
 		}
 
 		#main table tfoot {
-			border-top-color: #dddddd;
+			border: 1px solid #dddddd;
 		}
 
 		#main table.alt tbody tr td {
-			border-color: #dddddd;
-		}
+			border: 1px solid #dddddd;
+		} */
 
 		#main .spotlight .image {
-			border-color: #dddddd;
+			border: 1px solid #dddddd;
 		}
 
 		#main > .main {
 			padding: 5em 5em 3em 5em ;
-			border-top: solid 1px #dddddd;
+			border: 1px solid #dddddd;
 		}
 
 			#main > .main:first-child {
