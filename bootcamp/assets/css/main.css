@@ -3575,6 +3575,15 @@ input, select, textarea {
 			background-image: linear-gradient(90deg, #374d98, #7424ab, #c42423);
 		}
 
+		.faq-nav{
+			color: #636363 !important;
+			background-color: #f7f7f7 !important;
+			border: 1px solid #d8d8d8 !important;
+			margin-bottom: 10px !important;
+		} 
+		.box-shadow{
+			box-shadow: none !important;
+		}
 		/* #main table tbody tr {
 			border-color: #dddddd;
 		} */
