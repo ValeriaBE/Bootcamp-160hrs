@@ -3082,9 +3082,9 @@ input, select, textarea {
 				padding: 0.35em;
 			}
 
-				.spotlight .image img {
+				/* .spotlight .image img {
 					width: 12em;
-				}
+				} */
 
 		}
 
@@ -3776,10 +3776,20 @@ input, select, textarea {
 
 		}
 
+		.w-90 {
+			width: 90%;
+		}
+
+		.w-70 {
+			width: 70%;
+		}
 		@media screen and (max-width: 480px) {
 
 			#footer {
 				padding: 3em 1.5em 1em 1.5em ;
+			}
+			.image {
+				width: 100%;
 			}
 
 		}
