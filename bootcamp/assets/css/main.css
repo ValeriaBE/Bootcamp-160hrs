@@ -3031,7 +3031,7 @@ input, select, textarea {
 
 			.spotlight .image img {
 				display: block;
-				width: 16em;
+				width: 100%;
 			}
 
 		@media screen and (max-width: 980px) {
